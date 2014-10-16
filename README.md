@@ -1,4 +1,4 @@
-ruby
+compass + sass
 ====
 
-Docker image for ruby
+Docker image for compass & sass
