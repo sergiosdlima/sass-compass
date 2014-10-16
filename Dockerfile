@@ -1,5 +1,5 @@
 FROM ruby
 
 # install compass (+sass)
-RUN gem install compass
+RUN gem update --system && gem install compass
 VOLUME ["/input", "/output"]
